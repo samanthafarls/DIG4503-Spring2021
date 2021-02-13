@@ -19,8 +19,8 @@ class Market extends React.Component{
                 }
                 }> Click Me!</button>
                 <div>{
-                    this.state.items.map(function(count){
-                        return <p key={count}>{count}</p>
+                    this.state.items.map(function(count, key){
+                        return <p key={key}>{count}</p>
                     }
                     
                         

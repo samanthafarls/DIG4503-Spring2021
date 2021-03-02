@@ -1,0 +1,16 @@
+.text {
+    text-align: center;
+}
+
+.handleAdd{
+    background-color: #08C324;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
